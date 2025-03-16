@@ -1,0 +1,51 @@
+
+<html>
+  <link rel="stylesheet"href="style.css">
+    <body>
+        <main>
+    <div class="vk-preloader">
+  <h1>Природа</h1>
+</div>
+<script>
+  const TIME_TO_WAIT = 3;
+  const preloader = document.querySelector('.vk-preloader');
+  const removePreloader = function() {
+    preloader.classList.add("none");
+    preloader.removeEventListener('transitionend', removePreloader);
+  };
+  const hidePreloader = function() {
+    preloader.classList.add("hidden");
+    preloader.addEventListener('transitionend', removePreloader);
+  };
+  if (preloader) {
+    setTimeout(hidePreloader, TIME_TO_WAIT * 100);
+  }
+
+</script>
+    </main>
+<h1> Просто подивися на природу </h1>
+<div class="slider">
+  <img class="photo" src="https://balthazar.club/o/uploads/posts/2023-10/1696986447_balthazar-club-p-priroda-leto-vkontakte-5.jpg" alt="" />
+  <img class="photo" src="https://twam.ru/wp-content/uploads/2024/02/priroda-solntse-16.webp" alt="" />
+  <img class="photo" src="https://ecopolitic.com.ua/wp-content/uploads/2021/02/shutterstock_1766001593.jpg" alt="" />
+  <img class="photo" src="https://vsthemes.org/uploads/posts/2019-03/1582031308_russia-nature_vsthemes_ru-2.webp" alt="" />
+</div>
+  <h1>Тепер можеш подивитись відео</h1>
+<iframe width="100%" height="620px" src="https://www.youtube.com/embed/YjS2uEJ78T4" title="красивая природа, мелодии для отдыха!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<h1>Послухай музику про природу</h1>
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/182110151&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/holi_timon" title="Holi_Timon" target="_blank" style="color: #cccccc; text-decoration: none;">Holi_Timon</a> · <a href="https://soundcloud.com/holi_timon/sets/forest-dark-psy" title="Forest / Dark Psy" target="_blank" style="color: #cccccc; text-decoration: none;">Forest / Dark Psy</a></div>
+<h1>Ще трохи природи</h1>
+<footer>
+            <div class="container">
+                <div class="gallery">
+                    <img src="https://imglife.pravda.com.ua/images/doc/c/4/c4058cd-pryroda-3.jpg"/>
+                    <img src="https://img.freepik.com/premium-photo/scenic-view-stream-flowing-amidst-trees-autumn_1048944-20530190.jpg?semt=ais_hybrid"/>
+                    <img src="https://img.freepik.com/free-photo/vertical-shot-road-going-through-beautiful-colorful-trees-captured-day-time_181624-8309.jpg?t=st=1740907380~exp=1740910980~hmac=969a6f551ca6f442edb8ca50f7060dd14b42960e00c825304cb8518d12c728d9&w=740"/>
+                    <img src="https://amiel.club/uploads/posts/2022-03/1647526527_46-amiel-club-p-priroda-vertikalnie-kartinki-49.jpg"/>
+                    <img src="https://oir.mobi/uploads/posts/2024-03/thumbs/1711618543_oir-mobi-flo0-p-priroda-vertikalnie-34.jpg"/>
+                    <img src="https://i.pinimg.com/736x/e3/9e/ef/e39eef7f13d585924394efd742c90694.jpg"/>
+                </div>
+                </div>
+                    </footer>
+</body>
+</html>
